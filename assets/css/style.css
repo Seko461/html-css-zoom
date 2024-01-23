@@ -96,6 +96,12 @@ img {
 
 .user-window {
     position: relative;
+    cursor: pointer;
+}
+
+img:hover {
+
+    border: 2px solid white;
 }
 
 .user {
