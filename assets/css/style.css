@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.debug nav {
+    height: 30px;
+}
+
+.d-flex {
+    display: flex;
 }
 
 .viewport {
@@ -10,9 +22,6 @@
     position: relative;
 }
 
-.debug nav {
-    height: 30px;
-}
 
 nav {
     width: 100vw;
@@ -20,4 +29,10 @@ nav {
     position: absolute;
     bottom: 0;
     z-index: 999;
+}
+
+ul {
+    color: white;
+    list-style: none;
+    gap: 1rem;
 }
