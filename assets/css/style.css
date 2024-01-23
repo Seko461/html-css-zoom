@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.viewport {
+    height: 100vh;
+    background-color: rgb(231, 231, 231);
+    position: relative;
+}
+
+.debug nav {
+    height: 30px;
+}
+
+nav {
+    width: 100vw;
+    background-color: rgb(32, 32, 32);
+    position: absolute;
+    bottom: 0;
+    z-index: 999;
+}
