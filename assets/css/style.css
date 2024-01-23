@@ -9,7 +9,7 @@
 }
 
 .debug nav {
-    height: 30px;
+    /* height: 30px; */
 }
 
 .d-flex {
@@ -35,4 +35,25 @@ ul {
     color: white;
     list-style: none;
     gap: 1rem;
+    padding: 1rem;
+    font-size: .75rem;
+    justify-content: center;
+}
+
+.instruments {
+    flex-grow: 1;
+    margin: auto;
+    border: 1px solid white;
+}
+
+.call {
+    background-color: rgb(98, 98, 98);
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: .75rem;
+    padding: 1rem;
+    color: red;
 }
