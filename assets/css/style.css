@@ -76,8 +76,46 @@
 
 /* #endregion top screen */
 
+/* #region main */
+.container {
+    /* border: 1px solid white; */
+    padding-top: 4rem;
+    width: 90vw;
+    margin: auto;
 
+}
 
+img {
+    display: block;
+
+}
+
+.fa-microphone-slash {
+    font-size: .5rem;
+}
+
+.user-window {
+    position: relative;
+}
+
+.user {
+    background-color: rgba(98, 98, 98, 0.5);
+    width: fit-content;
+    color: white;
+    padding: .25rem .5rem;
+    font-size: .5rem;
+    position: absolute;
+    bottom: 0;
+}
+
+.row {
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+
+}
+
+/* #endregion main */
 
 /* #region nav bar */
 
