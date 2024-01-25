@@ -81,7 +81,10 @@
     /* border: 1px solid white; */
     padding-top: 4rem;
     width: 90vw;
+    height: 100%;
     margin: auto;
+    overflow: hidden;
+
 
 }
 
